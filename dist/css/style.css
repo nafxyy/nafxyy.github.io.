@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Montserrat"
+}
+
+/* Tampilan pada Header */
+.container{
+    size: 85%;
+    background-color: bisque;
+    padding: 15px;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../gambar/thrift1.jfif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+/* Tampilan Navbar */
+.navigation{
+    width: 100%;
+}
+
+.navigation .box-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .box-navigation .box:nth-child(1){
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+.navigation .box-navigation .box:nth-child(2) ul{
+    display: flex;
+}
+
+.navigation .box-navigation .box:nth-child(2) li{
+    margin-left: 35px;
+    list-style-type: none;
+}
+
+.navigation .box-navigation .box:nth-child(2) li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigation .box-navigation .box:nth-child(2) li a:hover{
+    color: white;
+}
+
+/* Tampian Tulisan di tengah Homepage */
+header .hero{
+    top: 50%;
+    right: 18%;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Mengatur Background dan Fitur pada bagian Class Products */
+.products {
+    width: 100%;
+    size: 75%;
+    align-items: center;
+    background-color: #eddcd2;;
+    text-align: center;
+}
+
+
+/* Untuk Menampilkan Products */
+.products .box-products{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+/* Mengatur Jarak dan Text pada Product yang Ditampilkan */
+.products .box-products .box {
+    text-align: center;
+    margin: 35px;
+}
+
+/* Mengatur Bentuk Gambar Product */
+.products .box-products .box img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* Mengatur Section Address */
+.address{
+    width: 100%;
+    size: 75%;
+    align-items: center;
+    background-color: #eddcd2;;
+    text-align: center;
+}
+
+.address .box-address .box:nth-child(1){
+    padding-right: 20%;
+}
+
+.address .box-address .box:nth-child(1) h1{
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.address .box-address .box:nth-child(1) p{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.address .box-address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: oldlace;
+}
+
+.address .box-address .box img{
+    width: 65%;
+    margin-bottom: 25px;
+}
+
+/* Section Contact */
+.contact{
+    width: 100%;
+    text-align: center;
+    background-color: dimgray;
+}
+
+.contact .box-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contact .box-contact .box:nth-child(1) h1{
+    font-size: 45px;
+    color: white;
+    padding-right: 200px;
+}
+
+.contact .box-contact .box:nth-child(2) h1{
+    font-size: 55px;
+    color: white;
+}
+
+.contact .box-contact .box:nth-child(2) li{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Section About Me */
+.about{
+    width: 100%;
+    background-color: #7895B2;
+    padding-bottom: 5%;
+}
+
+.about .box-about .box:nth-child(1) h1{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+}
+
+.about .box-about .box:nth-child(2) p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Membuat tampilan footer web */
+footer p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: "Montserrat";
+    font-size:20px;
+    font-style: bold;
+    background-color:#FFE3E1;
+}

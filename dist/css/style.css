@@ -56,12 +56,10 @@ header{
 
 /* Tampian Tulisan di tengah Homepage */
 header .hero{
-    top: 50%;
-    right: 18%;
-    position: absolute;
     color: white;
     font-size: 30px;
     text-align: center;
+    padding-top: 20%;
 }
 
 /* Mengatur Background dan Fitur pada bagian Class Products */
